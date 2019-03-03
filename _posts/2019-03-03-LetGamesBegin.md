@@ -7,7 +7,7 @@ RetroChallenge 2019/03 has officially started!  The first item of business was t
 my TI stuff out of storage and set it up.  I'm pretty sure that this is the same
 machine that I had in my room as a child. Here is what the setup looks like now.
 
-![ti_munchman](/images/2019-03-03/ti_munchman.jpg "TI Setup")
+![ti_munchman]({{ site.baseurl }}/images/2019-03-03/ti_munchman.jpg "TI Setup")
 
 I had Peripheral Expansion Box (PEB), 300 baud modem, and dot-matrix printer back
 in the day.  I am not sure what happened to these items.  Here is a picture
