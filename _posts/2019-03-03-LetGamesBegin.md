@@ -13,7 +13,7 @@ I had Peripheral Expansion Box (PEB), 300 baud modem, and dot-matrix printer bac
 in the day.  I am not sure what happened to these items.  Here is a picture
 showing most of my surviving cartridges, tapes, and diskettes.
 
-![ti_software]({{ site.baseurl }}/images/2019-03-03/ti_software_med.jpg | width=640 "Surving Software")
+![ti_software]({{ site.baseurl }}/images/2019-03-03/ti_software.jpg "Surving Software")
 
 Also I have a couple books and manuals.
 
