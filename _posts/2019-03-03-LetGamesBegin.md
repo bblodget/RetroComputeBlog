@@ -13,11 +13,11 @@ I had Peripheral Expansion Box (PEB), 300 baud modem, and dot-matrix printer bac
 in the day.  I am not sure what happened to these items.  Here is a picture
 showing most of my surviving cartridges, tapes, and diskettes.
 
-![ti_software](/images/2019-03-03/ti_software_med.jpg | width=640 "Surving Software")
+![ti_software]({{ site.baseurl }}/images/2019-03-03/ti_software_med.jpg | width=640 "Surving Software")
 
 Also I have a couple books and manuals.
 
-![ti_manuals](/images/2019-03-03/ti_manuals.jpg "Surving Software")
+![ti_manuals]({{ site.baseurl }}/images/2019-03-03/ti_manuals.jpg "Surving Software")
 
 My 16 year old son and I have been enjoying playing some of the games.  So far we've 
 played Munchman, Parsec, Apliner, Pole Position, Donkey Kong, and Indoor Soccer.
