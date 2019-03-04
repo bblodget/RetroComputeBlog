@@ -26,7 +26,7 @@ don't have the required composite video cable yet.
 
 ## Items on Order
 
-On the Atariage forum, a found a thread titled, [New to the group? TI-99/4A FAQ, Hardware and software resources READ FIRST!](http://atariage.com/forums/topic/267055-new-to-the-group-ti-994a-faq-hardware-and-software-resources-read-first/).
+On the Atariage forum, found a thread titled, [New to the group? TI-99/4A FAQ, Hardware and software resources READ FIRST!](http://atariage.com/forums/topic/267055-new-to-the-group-ti-994a-faq-hardware-and-software-resources-read-first/).
 This was a great starting point for coming up to speed in the retro world of the
 TI99/4a. It helped me find many items that I want to get.  Here are 
 the items I've ordered (or tried to order).
@@ -38,7 +38,7 @@ the items I've ordered (or tried to order).
 ### Project Related
 - [NTSC Composite video cable](https://www.arcadeshopper.com/wp/?page_id=11#!/Composite-video-cable/p/74389896/category=23804650) : Needed to connect to a better monitor.
 - [JediMatt42 32K sidecar](https://www.arcadeshopper.com/wp/?page_id=11#!/32k-sidecar-memory-expansion/p/73789245/category=28272181) : Need the extra 32K.  Required for the TIPI Sidecar. I'm also interested in
-hacking onto the pass through expansion pins.
+hacking onto the passthrough expansion pins.
 - [TIPI - SIDECAR - Raspberry PI interface board](http://ti994a.cwfk.net/TIPI.html) : This seems
   tantalizingly close to what I need for my project. 
 - [TurboForth](http://turboforth.net/) : I like Forth.  I want to see how fast it is.
