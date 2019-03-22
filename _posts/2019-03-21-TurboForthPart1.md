@@ -24,9 +24,9 @@ Also most words take parameters from the stack.
 So you must push the parameters onto the stack before calling
 the word.  In Forth there is a convention for documenting the
 parameters a word expects on the stack and the values
-it leaves on the stack.  Basically it is ( param1 param2 -- ret1 ret2).
+it leaves on the stack.  Basically it is ( param1 param2 \-\- ret1 ret2).
 This is called the Data Stack Signature.
-So the Data Stack Signature for [+](http://turboforth.net/lang_ref/view_word.asp?ID=47) would be ( a b -- a+b).
+So the Data Stack Signature for [+](http://turboforth.net/lang_ref/view_word.asp?ID=47) would be ( a b \-\- a+b).
 It so happens that [\(](http://turboforth.net/lang_ref/view_word.asp?ID=118) is a word that begins
 a comment so you often
 see the Data Stack Signature to the right of the word when it is defined.
@@ -96,7 +96,7 @@ Calling [GMODE](http://turboforth.net/lang_ref/view_word.asp?ID=219) has the sid
 Next I defined the words, **TOP_LINE** and **BOT_LINE**.
 These words prints 40 \* across the top and bottom of the screen.
 This is done with the [HCHAR](http://turboforth.net/lang_ref/view_word.asp?ID=220) command.
-Its Data Stack Signature is ( row col ascii_num repeat -- )
+Its Data Stack Signature is ( row col ascii_num repeat \-\- )
 The asci_num for asterisks \* is 42.
 
 ```
