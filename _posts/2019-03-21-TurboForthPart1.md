@@ -74,7 +74,7 @@ S" DSK1.MYBLOCKS" USE
 
 ## Border: First Program
 
-For my first program my goal was to draw a border of asterisks '*' 
+For my first program my goal was to draw a border of asterisks \*
 around the screen, then wait for a keypress before showing the
 'ok:' prompt.
 
@@ -89,23 +89,23 @@ Calling [GMODE](http://turboforth.net/lang_ref/view_word.asp?ID=219) has the sid
 
 ```
 : CLS
-0 [GMODE](http://turboforth.net/lang_ref/view_word.asp?ID=219)
+0 GMODE
 ;
 ```
 
 Next I defined the words, **TOP_LINE** and **BOT_LINE**.
-These words prints 40 '*' across the top and bottom of the screen.  
+These words prints 40 \* across the top and bottom of the screen.  
 This is done with the [HCHAR](http://turboforth.net/lang_ref/view_word.asp?ID=220) command.  
 Its Data Stack Signature is ( row col ascii_num repeat -- )
-The asci_num for '*' is 42.
+The asci_num for asterisks \* is 42.
 
 ```
 : TOP_LINE
-0 0 42 40 [HCHAR](http://turboforth.net/lang_ref/view_word.asp?ID=220)
+0 0 42 40 HCHAR
 ;
 
 : BOT_LINE
-23 0 42 40 [HCHAR](http://turboforth.net/lang_ref/view_word.asp?ID=220)
+23 0 42 40 HCHAR
 ;
 ```
 
@@ -117,26 +117,28 @@ vertical lines.
 
 ```
 : LEFT_LINE
-0 0 42 24 [VCHAR](http://turboforth.net/lang_ref/view_word.asp?ID=232)
+0 0 42 24 VCHAR
 ;
 
 : RIGHT_LINE
-0 39 42 24 [VCHAR](http://turboforth.net/lang_ref/view_word.asp?ID=232)
+0 39 42 24 VCHAR
 ;
+```
 
 The we define the word to draw the full border.
 After we draw the border we move the cursor
-to the middle of the screen with the GOTOXY command.
-Then we wait for a KEY press.  We don't care
-which key was pressed so we DROP the value.
+to the middle of the screen with the [GOTOXY](http://turboforth.net/lang_ref/view_word.asp?ID=131) command.
+Then we wait for a [KEY](http://turboforth.net/lang_ref/view_word.asp?ID=133) press.  We don't care
+which key was pressed so we [DROP](http://turboforth.net/lang_ref/view_word.asp?ID=17) the value.
 
 ```
 : BORDER
 CLS
 TOP_LINE BOT_LINE LEFT_LINE RIGHT_LINE
-20 12 [GOTOXY](http://turboforth.net/lang_ref/view_word.asp?ID=131)
-[KEY](http://turboforth.net/lang_ref/view_word.asp?ID=133)
-[DROP](http://turboforth.net/lang_ref/view_word.asp?ID=17)
+20 12 GOTOXY
+KEY
+DROP
+;
 ```
 
 Here is what the program looks like typed into
