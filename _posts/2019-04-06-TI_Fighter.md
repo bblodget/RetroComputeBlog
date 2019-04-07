@@ -9,7 +9,8 @@ I started looking at [TurboForth](http://turboforth.net/).  I was impressed with
 my own game.  I used Dark Star as example code to get my game started. I borrowed
 the rock tiles and the routines to draw them.
 
-The game I chose to make is inspired by [Street Fighter](https://en.wikipedia.org/wiki/Street_Fighter_(video_game))
+This new game is called **TI Fighter**.
+It is inspired by [Street Fighter](https://en.wikipedia.org/wiki/Street_Fighter_(video_game))
 from 1987. My son, Josh, is into retro games and is helping with the game design and graphics.
 Currently the game requires two joysticks.  Since development has just started
 at this time you basically can just move the characters around and kick.
