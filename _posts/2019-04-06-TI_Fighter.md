@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TI Fighter, a TuroboForth Game
+title: TI Fighter, a TurboForth Game
 ---
 
 Toward the end of the of last month's [RetroChallenge](http://www.retrochallenge.org/p/entrants-list-201903.html) 
